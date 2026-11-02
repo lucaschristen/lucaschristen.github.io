@@ -60,4 +60,4 @@ My earlier education includes an **M.Sc. in Aerospace Engineering** from the Uni
 - [researchmap — research profile](https://researchmap.jp/lucasbrianchristen)
 - [GitHub — software and research repositories](https://github.com/lucaschristen)
 
-*Project descriptions will be expanded with experimental photographs, engineering diagrams, methods, and published results.*
+_Project descriptions will be expanded with experimental photographs, engineering diagrams, methods, and published results._
