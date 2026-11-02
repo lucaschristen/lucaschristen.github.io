@@ -2,21 +2,20 @@
 layout: page
 title: Publications
 permalink: /publications/
-description: Selected academic publications and research profiles.
+description: Peer-reviewed research publications.
 nav: true
 nav_order: 3
 ---
 
-## Peer-reviewed publication
+## Peer-reviewed articles
 
-**Laser Processing of Lunar Regolith Simulants for Beneficiation and Metal Extraction**  
-*Vacuum* (2025)
+**Christen, L.-B., Watanabe, M., Yamakami, H., Sekine, H., Komurasaki, K., Momozawa, A., and Koizumi, H.** (2025).  
+**Laser processing of lunar regolith simulants for beneficiation and metal extraction.**  
+*Vacuum*, **240**, 114417.  
+[Read the open-access article](https://doi.org/10.1016/j.vacuum.2025.114417) · [DOI: 10.1016/j.vacuum.2025.114417](https://doi.org/10.1016/j.vacuum.2025.114417)
 
-Research on laser-based processing of lunar regolith simulants, with an emphasis on material response and potential applications to beneficiation and resource extraction.
+This paper reports experimental laser processing of lunar regolith simulants as a potential route for selective oxide removal and metal extraction.
 
-The full publication record, including author lists and persistent links, will be added after bibliographic verification.
+## Further research information
 
-## Academic profiles
-
-- [researchmap](https://researchmap.jp/lucasbrianchristen)
-- [Research and experimental methods]({{ '/research/' | relative_url }})
+For current and upcoming work, see my [research overview]({{ '/research/' | relative_url }}) or [researchmap profile](https://researchmap.jp/lucasbrianchristen).
