@@ -11,21 +11,21 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "Research",
-          description: "Laser processing, selective vaporization, and lunar in-situ resource utilization.",
+          description: "Lunar regolith vaporization, selective enrichment and modelling.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
           },
         },{id: "nav-engineering",
           title: "Engineering",
-          description: "Experimental hardware, instrumentation, and scientific software developed for research.",
+          description: "Hardware, optics, control software and simulation tools for aerospace research.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/engineering/";
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "Peer-reviewed research publications.",
+          description: "Peer-reviewed papers, talks and poster presentations.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
