@@ -175,7 +175,8 @@
   position: absolute;
   z-index: -1;
   inset: 0;
-  background-image: linear-gradient(rgba(47, 89, 129, 0.07) 1px, transparent 1px), linear-gradient(90deg, rgba(47, 89, 129, 0.07) 1px, transparent 1px);
+  background-image: linear-gradient(rgba(47, 89, 129, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(47, 89, 129, 0.07) 1px, transparent 1px);
   background-size: 30px 30px;
   content: "";
 }
