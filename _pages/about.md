@@ -109,6 +109,7 @@ portfolio_home: true
         <a href="{{ '/engineering/' | relative_url }}">View engineering projects <span aria-hidden="true">↗</span></a>
       </p>
     </div>
+
   </section>
 
   <section class="portfolio-section portfolio-bottom" aria-labelledby="portfolio-about-title">
