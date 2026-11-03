@@ -337,12 +337,7 @@ html[data-theme="dark"] {
   position: absolute;
   z-index: -1;
   inset: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(14, 27, 40, 0.15) 0%,
-    rgba(10, 22, 34, 0.62) 40%,
-    rgba(9, 19, 31, 0.93) 100%
-  );
+  background: linear-gradient(180deg, rgba(14, 27, 40, 0.15) 0%, rgba(10, 22, 34, 0.62) 40%, rgba(9, 19, 31, 0.93) 100%);
   content: "";
 }
 
