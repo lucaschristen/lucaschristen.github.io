@@ -24,17 +24,17 @@ technical description. The same file may be edited via GitHub Desktop or ChatGPT
 
 ## Recommended figures for each section
 
-| Page | Section ID | Preferred material |
-| --- | --- | --- |
-| Research | `laser-vaporization` | Laser-irradiated regolith or chamber photo (an original image is already supplied) |
-| Research | `enrichment` | Samples before/after processing + composition plot |
-| Research | `temperature-diagnostics` | Pyrometry/spectrometer layout or temperature trace |
-| Research | `numerical-analysis` | Model prediction of residue composition or energy balance |
-| Engineering | `vacuum-platform` | Annotated full vacuum/lasing system photo |
-| Engineering | `pid-software` | PID graphical interface screenshot and control-flow diagram |
-| Engineering | `optical-instrumentation` | Annotated optical path with focal lengths and filters |
-| Engineering | `numerical-tools` | Numerical model flow diagram and result graph |
-| Engineering | `collection-systems` | Heated collector plate and diagnostics setup |
+| Page        | Section ID                | Preferred material                                                                 |
+| ----------- | ------------------------- | ---------------------------------------------------------------------------------- |
+| Research    | `laser-vaporization`      | Laser-irradiated regolith or chamber photo (an original image is already supplied) |
+| Research    | `enrichment`              | Samples before/after processing + composition plot                                 |
+| Research    | `temperature-diagnostics` | Pyrometry/spectrometer layout or temperature trace                                 |
+| Research    | `numerical-analysis`      | Model prediction of residue composition or energy balance                          |
+| Engineering | `vacuum-platform`         | Annotated full vacuum/lasing system photo                                          |
+| Engineering | `pid-software`            | PID graphical interface screenshot and control-flow diagram                        |
+| Engineering | `optical-instrumentation` | Annotated optical path with focal lengths and filters                              |
+| Engineering | `numerical-tools`         | Numerical model flow diagram and result graph                                      |
+| Engineering | `collection-systems`      | Heated collector plate and diagnostics setup                                       |
 
 ## Quality and publication checks
 
