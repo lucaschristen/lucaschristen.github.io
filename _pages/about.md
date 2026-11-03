@@ -1,63 +1,133 @@
 ---
-layout: about
+layout: default
 title: Home
 permalink: /
-subtitle: Doctoral Researcher in Aerospace Engineering · The University of Tokyo
-
-profile: false
-selected_papers: false
-social: true
-
-announcements:
-  enabled: false
-
-latest_posts:
-  enabled: false
+portfolio_home: true
 ---
 
-I am **Lucas-Brian Christen**, a doctoral researcher in aerospace engineering at **The University of Tokyo**. My work focuses on laser-based processing of lunar regolith to support **in-situ resource utilization (ISRU)** and the sustainable use of resources beyond Earth.
-
-My research investigates **selective vaporization and thermal fractionation** of lunar materials: how different constituents respond to intense laser heating, which materials remain in the processed regolith, and how the resulting changes in composition could support subsequent resource extraction. I combine controlled laboratory experiments with numerical modelling to evaluate process performance and energy requirements.
-
-<div class="d-flex flex-wrap mt-4 mb-4" style="gap: 0.65rem;">
-  <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">Research</a>
-  <a class="btn btn-outline-primary" href="{{ '/engineering/' | relative_url }}">Engineering projects</a>
-  <a class="btn btn-outline-primary" href="{{ '/publications/' | relative_url }}">Publications</a>
-</div>
-
-## Research and engineering focus
-
-<div class="row row-cols-1 row-cols-md-2 g-3 mb-4">
-  <div class="col mb-3">
-    <div class="card h-100">
-      <div class="card-body">
-        <h3 class="h5">Laser processing of lunar regolith</h3>
-        <p class="card-text">Experimental investigation of high-temperature laser-driven vaporization, thermal fractionation, and oxide enrichment for lunar resource processing.</p>
-        <a href="{{ '/research/' | relative_url }}">Explore research</a>
+<div class="portfolio-home">
+  <section class="portfolio-hero" aria-labelledby="portfolio-name">
+    <div class="portfolio-wrap portfolio-hero-grid">
+      <div class="portfolio-hero-copy">
+        <p class="portfolio-eyebrow">Aerospace engineering <span aria-hidden="true">/</span> Lunar ISRU</p>
+        <h1 id="portfolio-name">Lucas-Brian <span>Christen</span></h1>
+        <p class="portfolio-role">PhD Researcher · The University of Tokyo</p>
+        <div class="portfolio-hero-rule" aria-hidden="true"></div>
+        <p class="portfolio-lead">
+          Developing laser-based methods for processing lunar regolith and
+          investigating technologies that could support resource extraction beyond Earth.
+        </p>
+        <p class="portfolio-affiliation">
+          Department of Aeronautics and Astronautics<br>
+          Komurasaki &amp; Koizumi Laboratory · Tokyo, Japan
+        </p>
+        <div class="portfolio-actions">
+          <a class="portfolio-button portfolio-button-primary" href="{{ '/research/' | relative_url }}">
+            Explore research <span aria-hidden="true">↗</span>
+          </a>
+          <a class="portfolio-button portfolio-button-outline" href="{{ '/engineering/' | relative_url }}">
+            Engineering portfolio
+          </a>
+        </div>
+        <div class="portfolio-social" aria-label="Professional profiles">
+          <a href="mailto:l.christen@al.t.u-tokyo.ac.jp">Email</a>
+          <a href="https://researchmap.jp/lucasbrianchristen" target="_blank" rel="noopener noreferrer">researchmap</a>
+          <a href="https://www.linkedin.com/in/lucas-brian-christen" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://orcid.org/0009-0008-0968-349X" target="_blank" rel="noopener noreferrer">ORCID</a>
+          <a href="https://github.com/lucaschristen" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+      <div class="portfolio-portrait-wrap">
+        <img
+          class="portfolio-portrait"
+          src="{{ '/assets/img/portfolio/profile.jpg' | relative_url }}"
+          alt="Portrait of Lucas-Brian Christen"
+          width="720"
+          height="900"
+          fetchpriority="high"
+        >
+        <div class="portfolio-portrait-caption">Research &amp; Engineering</div>
       </div>
     </div>
-  </div>
-  <div class="col mb-3">
-    <div class="card h-100">
-      <div class="card-body">
-        <h3 class="h5">Experimental systems and control</h3>
-        <p class="card-text">Design and integration of laser-heating hardware, vacuum experiments, optical temperature measurements, spectroscopy, and Python-based instrument control.</p>
-        <a href="{{ '/engineering/' | relative_url }}">Explore engineering projects</a>
+  </section>
+
+  <section class="portfolio-section portfolio-research" id="research-highlights" aria-labelledby="portfolio-research-title">
+    <div class="portfolio-wrap">
+      <div class="portfolio-section-head">
+        <div>
+          <p class="portfolio-eyebrow">Selected work</p>
+          <h2 id="portfolio-research-title">Research &amp; engineering</h2>
+        </div>
+        <p>
+          From laboratory experiments to diagnostics and numerical models:
+          developing the methods and hardware behind lunar resource processing.
+        </p>
+      </div>
+      <div class="portfolio-card-grid">
+        <a class="portfolio-photo-card" href="{{ '/research/' | relative_url }}">
+          <img src="{{ '/assets/img/portfolio/research-laser.jpg' | relative_url }}" alt="" loading="lazy">
+          <div class="portfolio-card-content">
+            <span class="portfolio-card-kicker">01 / Research</span>
+            <h3>Laser-driven vaporization of lunar regolith</h3>
+            <p>Studying mass loss, selective volatilization, and melt behavior under continuous-wave laser heating.</p>
+            <span class="portfolio-card-detail">CW fiber lasers · Vacuum processing · Thermal fractionation</span>
+          </div>
+        </a>
+
+        <a class="portfolio-photo-card" href="{{ '/engineering/' | relative_url }}">
+          <img src="https://raw.githubusercontent.com/lucaschristen/Personal_Website/main/assets/images/research-thermometry.jpg" alt="" loading="lazy">
+          <div class="portfolio-card-content">
+            <span class="portfolio-card-kicker">02 / Instrumentation</span>
+            <h3>High-temperature optical diagnostics</h3>
+            <p>Ratio pyrometry, emission spectroscopy, and calibrated measurements for laser-heated materials.</p>
+            <span class="portfolio-card-detail">Spectroscopy · Optics · Python</span>
+          </div>
+        </a>
+
+        <a class="portfolio-photo-card" href="{{ '/research/' | relative_url }}">
+          <img src="{{ '/assets/img/portfolio/al2o3.png' | relative_url }}" alt="" loading="lazy">
+          <div class="portfolio-card-content">
+            <span class="portfolio-card-kicker">03 / Lunar ISRU</span>
+            <h3>Oxide enrichment for metal extraction</h3>
+            <p>Investigating thermal beneficiation as a potential precursor to aluminium extraction from lunar resources.</p>
+            <span class="portfolio-card-detail">Selective vaporization · Oxide chemistry · ISRU</span>
+          </div>
+        </a>
+
+        <a class="portfolio-photo-card" href="{{ '/research/' | relative_url }}">
+          <img src="https://raw.githubusercontent.com/lucaschristen/Personal_Website/main/assets/images/simulants.JPG" alt="" loading="lazy">
+          <div class="portfolio-card-content">
+            <span class="portfolio-card-kicker">04 / Materials</span>
+            <h3>Lunar regolith simulants</h3>
+            <p>Characterizing and processing lunar analogue materials to understand their behavior under extreme heating.</p>
+            <span class="portfolio-card-detail">LHS-1 · Material characterization · Experimentation</span>
+          </div>
+        </a>
+      </div>
+      <p class="portfolio-section-note">
+        Interested in the systems behind the experiments?
+        <a href="{{ '/engineering/' | relative_url }}">View engineering projects <span aria-hidden="true">↗</span></a>
+      </p>
+    </div>
+  </section>
+
+  <section class="portfolio-section portfolio-bottom" aria-labelledby="portfolio-about-title">
+    <div class="portfolio-wrap portfolio-bottom-grid">
+      <div class="portfolio-bottom-intro">
+        <p class="portfolio-eyebrow">About</p>
+        <h2 id="portfolio-about-title">Research with an engineering focus.</h2>
+        <p>
+          My work combines experimental aerospace engineering, high-temperature
+          processing, optical diagnostics, and numerical modelling.
+          I hold an M.Sc. in Aerospace Engineering from the University of Stuttgart.
+        </p>
+      </div>
+      <div class="portfolio-publication">
+        <p class="portfolio-eyebrow">Selected publication · 2025</p>
+        <h3>Laser processing of lunar regolith simulants for beneficiation and metal extraction</h3>
+        <p><em>Vacuum</em></p>
+        <a href="{{ '/publications/' | relative_url }}">View publications <span aria-hidden="true">↗</span></a>
       </div>
     </div>
-  </div>
+  </section>
 </div>
-
-## Current affiliation
-
-**Department of Aeronautics and Astronautics**, The University of Tokyo  
-Komurasaki Laboratory · Tokyo, Japan
-
-My earlier education includes an **M.Sc. in Aerospace Engineering** from the University of Stuttgart, Germany.
-
-## Research profiles
-
-- [researchmap — research profile](https://researchmap.jp/lucasbrianchristen)
-- [GitHub — software and research repositories](https://github.com/lucaschristen)
-
-_Project descriptions will be expanded with experimental photographs, engineering diagrams, methods, and published results._
