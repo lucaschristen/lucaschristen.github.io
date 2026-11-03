@@ -40,11 +40,13 @@
     {% if include.item.link_url != blank %}
       {% if include.item.link_url contains '://' %}
         <a class="portfolio-story-link" href="{{ include.item.link_url }}" target="_blank" rel="noopener noreferrer">
-          {{ include.item.link_label }} <span aria-hidden="true">↗</span>
+          {{ include.item.link_label }}
+          <span aria-hidden="true">↗</span>
         </a>
       {% else %}
         <a class="portfolio-story-link" href="{{ include.item.link_url | relative_url }}">
-          {{ include.item.link_label }} <span aria-hidden="true">↗</span>
+          {{ include.item.link_label }}
+          <span aria-hidden="true">↗</span>
         </a>
       {% endif %}
     {% endif %}
