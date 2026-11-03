@@ -1,0 +1,70 @@
+# One section per research topic. Change an image path from "" to a local
+# /assets/img/portfolio/... file after uploading a photo or figure.
+sections:
+  - id: laser-vaporization
+    number: "01"
+    kicker: "Core research"
+    title: "Laser-driven vaporization"
+    subtitle: "How lunar materials respond to intense heating"
+    description: "Controlled laser-heating experiments on lunar regolith simulants investigate temperature-dependent mass loss and material response at reduced pressure."
+    points:
+      - "Continuous-wave fiber laser experiments"
+      - "Gravimetric mass-loss measurements"
+      - "Controlled temperatures and ambient pressure"
+    image: "/assets/img/portfolio/research-laser.jpg"
+    image_alt: "Glowing material during a laser-heating experiment"
+    image_caption: "High-temperature laser processing experiment"
+    image_hint: "Laser experiment / vacuum chamber"
+    link_label: "Related publication"
+    link_url: "/publications/"
+
+  - id: enrichment
+    number: "02"
+    kicker: "Lunar resource processing"
+    title: "Selective oxide enrichment"
+    subtitle: "Beneficiation ahead of metal extraction"
+    description: "Preferential volatilization may change the oxide composition of the residue. The work investigates enrichment of aluminium-bearing material as a possible pre-treatment step."
+    points:
+      - "Volatile oxide removal"
+      - "Residue composition and material yield"
+      - "Potential integration with downstream electrolysis"
+    image: ""
+    image_alt: "Before-and-after photographs of processed lunar regolith simulant"
+    image_caption: "Before / after processing"
+    image_hint: "Sample photographs or compositional plot"
+    link_label: "See publication record"
+    link_url: "/publications/"
+
+  - id: temperature-diagnostics
+    number: "03"
+    kicker: "Experimental methods"
+    title: "Temperature and plume diagnostics"
+    subtitle: "Measuring processes at very high temperature"
+    description: "Optical spectroscopy and two-color pyrometry are used to monitor the laser-heated target, supporting repeatable processing and interpretation of vaporization behavior."
+    points:
+      - "Spectroscopic measurements"
+      - "Two-color temperature estimation"
+      - "Temperature feedback and experiment logging"
+    image: ""
+    image_alt: "Optical spectroscopy and pyrometry arrangement"
+    image_caption: "Spectrometer / pyrometry arrangement"
+    image_hint: "Optics photograph or pyrometry plot"
+    link_label: "Explore the engineering"
+    link_url: "/engineering/"
+
+  - id: numerical-analysis
+    number: "04"
+    kicker: "Numerical modelling"
+    title: "Vaporization and energy modelling"
+    subtitle: "Connecting experiments with process feasibility"
+    description: "Reduced-order models explore constituent depletion, evolving material yield, and the role of thermal losses in laser-based beneficiation."
+    points:
+      - "Temperature-dependent vaporization rates"
+      - "Compositional evolution and residue yield"
+      - "Energy demand and radiation losses"
+    image: ""
+    image_alt: "Numerical model output showing oxide composition during vaporization"
+    image_caption: "Vaporization and enrichment simulation"
+    image_hint: "Model result or energy-balance graph"
+    link_label: "View numerical model"
+    link_url: "https://github.com/lucaschristen/0D_Numerical_Vaporization_Fractional_Loop"

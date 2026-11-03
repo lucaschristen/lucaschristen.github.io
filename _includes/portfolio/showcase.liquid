@@ -1,0 +1,54 @@
+<article class="portfolio-story" id="{{ include.item.id }}">
+  <div class="portfolio-story-media">
+    {% if include.item.image != blank %}
+      {% if include.item.image contains '://' %}
+        {% assign media_src = include.item.image %}
+      {% else %}
+        {% assign media_src = include.item.image | relative_url %}
+      {% endif %}
+      <img src="{{ media_src }}" alt="{{ include.item.image_alt | escape }}" loading="lazy">
+      <span class="portfolio-story-caption">{{ include.item.image_caption }}</span>
+    {% else %}
+      <div class="portfolio-story-placeholder" role="img" aria-label="Image slot reserved for {{ include.item.image_alt | escape }}">
+        <div class="portfolio-placeholder-frame" aria-hidden="true">
+          <span class="portfolio-placeholder-horizon"></span>
+          <span class="portfolio-placeholder-circle"></span>
+        </div>
+        <span class="portfolio-placeholder-eyebrow">IMAGE / DIAGRAM SLOT</span>
+        <strong>{{ include.item.image_hint }}</strong>
+        <small>Original experimental imagery will appear here.</small>
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="portfolio-story-copy">
+    <p class="portfolio-story-kicker">
+      <span>{{ include.item.number }}</span> {{ include.item.kicker }}
+    </p>
+    <h2>{{ include.item.title }}</h2>
+    <p class="portfolio-story-subtitle">{{ include.item.subtitle }}</p>
+    <p class="portfolio-story-description">{{ include.item.description }}</p>
+
+    {% if include.item.points %}
+      <ul class="portfolio-story-points">
+        {% for point in include.item.points %}
+          <li>{{ point }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if include.item.link_url != blank %}
+      {% if include.item.link_url contains '://' %}
+        <a class="portfolio-story-link" href="{{ include.item.link_url }}" target="_blank" rel="noopener noreferrer">
+          {{ include.item.link_label }}
+          <span aria-hidden="true">↗</span>
+        </a>
+      {% else %}
+        <a class="portfolio-story-link" href="{{ include.item.link_url | relative_url }}">
+          {{ include.item.link_label }}
+          <span aria-hidden="true">↗</span>
+        </a>
+      {% endif %}
+    {% endif %}
+  </div>
+</article>

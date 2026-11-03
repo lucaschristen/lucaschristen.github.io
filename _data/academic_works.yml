@@ -1,0 +1,81 @@
+# Curated academic record for the Publications page.
+# Sources: researchmap profile (https://researchmap.jp/lucasbrianchristen),
+# JST J-GLOBAL researchmap-derived profile (updated 2026-08-18), journal DOIs,
+# and the earlier Personal_Website academic work list.
+# Add newly registered entries here after confirming title, event and date.
+
+papers:
+  - year: 2025
+    title: "Laser processing of lunar regolith simulants for beneficiation and metal extraction"
+    authors: "Lucas-Brian Christen, Masataka Watanabe, Hiroto Yamakami, Hokuto Sekine, Kimiya Komurasaki, Ai Momozawa, Hiroyuki Koizumi"
+    journal: "Vacuum"
+    details: "Vol. 240 · Article 114417"
+    doi: "10.1016/j.vacuum.2025.114417"
+    topic: "Lunar ISRU · Laser processing"
+  - year: 2025
+    title: "Hydrogen diffusion in liquid and boiling alumina by laser ablation towards a carbon-free aluminum production"
+    authors: "Lucas-Brian Christen, Masataka Watanabe, Hiroto Yamakami, Hokuto Sekine, Kimiya Komurasaki, Hiroyuki Koizumi"
+    journal: "Optics & Laser Technology"
+    details: "Vol. 181, Part C · Article 111935"
+    doi: "10.1016/j.optlastec.2024.111935"
+    topic: "Laser alumina reduction"
+  - year: 2024
+    title: "Pore Formation and Aluminum Precipitation during Laser Alumina Reduction in Hydrogen Atmosphere"
+    authors: "Masataka Watanabe, Lucas-Brian Christen, Naoki Tanaka, Kimiya Komurasaki, Hokuto Sekine, Hiroyuki Koizumi"
+    journal: "Applied Plasma Science (プラズマ応用科学)"
+    details: "Vol. 32, No. 1 · pp. 29–34"
+    doi: "10.34377/aps.32.1_29"
+    topic: "Laser alumina reduction"
+
+# Presentations and posters; sorted latest first. Not all event dates are
+# day-specific in the public researchmap-derived listing, so only list
+# the verified year (or month where confirmed from the old website).
+presentations:
+  - year: 2026
+    title: "Ca-Al-Enrichment in Lunar Regolith Simulants via Laser-Driven Selective Vaporization"
+    event: "Luxembourg Space Resources Week 2026"
+    location: "Luxembourg"
+    month: "May"
+    category: "International"
+  - year: 2026
+    title: "Refining Alumina from Japan-Abundant Resources: Al2O3-Enrichment via Laser-Based Selective Volatilization"
+    event: "FY2025 Aluminum Energy Cycle Research Meeting"
+    location: "Japan"
+    month: ""
+    category: "Domestic"
+  - year: 2025
+    title: "Turning Lunar Regolith into Metal: Thermal Processing for ISRU"
+    event: "Space Resources Initiative II"
+    location: "Tokyo, Japan"
+    month: "November"
+    category: "International"
+  - year: 2025
+    title: "Changes in Evaporated Species with Surface Temperature on Lunar Regolith Simulants"
+    event: "35th International Symposium on Space Technology and Science (ISTS 2025)"
+    location: "Tokushima, Japan"
+    month: "July"
+    category: "International"
+  - year: 2025
+    title: "Selective Metal Oxide Extraction from Regolith Using Laser Heating"
+    event: "Space Resources Week 2025"
+    location: "Luxembourg"
+    month: "May"
+    category: "International"
+  - year: 2025
+    title: "Refining Alumina from Ore: Selective Metal Oxide Extraction for Alumina Production"
+    event: "FY2024 Aluminum Energy Cycle Research Meeting"
+    location: "Hamamatsu, Japan"
+    month: "February"
+    category: "Domestic"
+  - year: 2024
+    title: "Continuous-wave Laser Ablation of Lunar Regolith Simulants JSC-2A, EAC-1A, and FJS-1 Towards In-Situ Resource Utilization"
+    event: "14th International Symposium on Applied Plasma Science (ISAPS 2024)"
+    location: "Otsu, Japan"
+    month: "September"
+    category: "International"
+  - year: 2024
+    title: "Palladium as a Collector to Support Hydrogenation of Plume Products in Laser Alumina Reduction"
+    event: "17th International Workshop on Plasma Application & Hybrid Functionally Materials (IAPS 2024)"
+    location: "Yokohama, Japan"
+    month: "March"
+    category: "Poster"

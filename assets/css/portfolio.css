@@ -71,7 +71,7 @@ html[data-theme="dark"] {
 
 .portfolio-hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(340px, 0.84fr);
+  grid-template-columns: minmax(0, 1.3fr) minmax(300px, 0.65fr);
   gap: clamp(42px, 6.5vw, 105px);
   align-items: center;
   padding-top: clamp(54px, 6vw, 94px);
@@ -218,7 +218,7 @@ html[data-theme="dark"] {
   position: relative;
   isolation: isolate;
   justify-self: end;
-  width: min(100%, 455px);
+  width: min(100%, 325px);
   margin: 0;
 }
 
@@ -461,7 +461,7 @@ html[data-theme="dark"] {
 
 @media (max-width: 960px) {
   .portfolio-hero-grid {
-    grid-template-columns: minmax(0, 1fr) minmax(290px, 0.8fr);
+    grid-template-columns: minmax(0, 1fr) minmax(250px, 0.72fr);
     gap: 32px;
   }
 
@@ -501,11 +501,11 @@ html[data-theme="dark"] {
   .portfolio-portrait-wrap {
     grid-row: 1;
     justify-self: center;
-    width: min(100% - 16px, 350px);
+    width: min(100% - 24px, 270px);
   }
 
   .portfolio-portrait {
-    max-height: 370px;
+    max-height: 330px;
     object-position: center 31%;
   }
 

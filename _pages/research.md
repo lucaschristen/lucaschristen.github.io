@@ -1,41 +1,56 @@
 ---
-layout: page
+layout: default
 title: Research
 permalink: /research/
-description: Laser processing, selective vaporization, and lunar in-situ resource utilization.
+description: Lunar regolith vaporization, selective enrichment and modelling.
 nav: true
 nav_order: 1
+portfolio_page: true
 ---
 
-## Laser-based processing of lunar regolith
+<div class="portfolio-detail portfolio-detail-research">
+  <header class="portfolio-detail-hero">
+    <div class="portfolio-wrap">
+      <p class="portfolio-eyebrow">Research / Lunar in-situ resource utilization</p>
+      <h1>Research</h1>
+      <p class="portfolio-detail-lead">
+        Can laser heating help separate lunar materials before metal extraction?
+        My research combines controlled vaporization experiments, optical diagnostics, and modelling.
+      </p>
+      <div class="portfolio-detail-chips" aria-label="Research themes">
+        <span>Lunar regolith</span>
+        <span>Selective vaporization</span>
+        <span>ISRU</span>
+        <span>High-temperature processing</span>
+      </div>
+    </div>
+  </header>
 
-My doctoral research addresses **thermal fractionation of lunar regolith using concentrated laser heating**. The goal is to investigate whether preferential vaporization of constituent species can change the composition of the remaining material and support **beneficiation before metal extraction**.
+  <nav class="portfolio-jumpbar" aria-label="Jump to research topics">
+    <div class="portfolio-wrap">
+      {% for item in site.data.research_portfolio.sections %}
+        <a href="#{{ item.id }}"><span>{{ item.number }}</span> {{ item.title }}</a>
+      {% endfor %}
+    </div>
+  </nav>
 
-The broader motivation is **lunar in-situ resource utilization (ISRU)**: reducing dependence on materials transported from Earth by developing processing methods suited to locally available lunar resources.
+  <div class="portfolio-wrap portfolio-showcase-list">
+    {% for item in site.data.research_portfolio.sections %}
+      {% include portfolio/showcase.liquid item=item %}
+    {% endfor %}
+  </div>
 
-### Research questions
-
-1. **Vaporization behavior:** How do the mass-loss rate and material response depend on surface temperature and ambient pressure?
-2. **Selective removal:** Which constituents preferentially enter the vapor phase, and how does the residue composition evolve?
-3. **Energy requirements:** What energy inputs and thermal losses govern the feasibility of laser-driven beneficiation?
-4. **Process integration:** How could thermally processed regolith be coupled to downstream extraction technologies?
-
-### Experimental approach
-
-I investigate laser-heated lunar regolith simulants under controlled atmospheres, including low-pressure conditions. Key methods include:
-
-- High-power continuous-wave laser heating and vacuum processing
-- Optical temperature measurement using two-color pyrometry
-- Feedback-controlled heating at selected temperature conditions
-- Gravimetric measurements of processed samples
-- Spectroscopic observations and post-test material characterization
-
-### Modelling
-
-I develop reduced-order vaporization and depletion models to interpret experimental behavior and evaluate compositional evolution. The modelling connects temperature-dependent vaporization rates with residue yield and estimated process energy demand.
-
-### Longer-term objective
-
-The intended application is to understand whether laser-based thermal processing can serve as a **pre-treatment step** for extraction of useful constituents, including aluminium-bearing material, from lunar regolith.
-
-For the hardware and software behind these experiments, see [Engineering projects]({{ '/engineering/' | relative_url }}).
+  <section class="portfolio-detail-outro">
+    <div class="portfolio-wrap portfolio-detail-outro-grid">
+      <div>
+        <p class="portfolio-eyebrow">Research outcome</p>
+        <h2>Connecting science to future lunar resource use</h2>
+        <p>These experiments support evaluation of thermal beneficiation as a possible step in a broader lunar metal-production process.</p>
+      </div>
+      <div class="portfolio-outro-links">
+        <a href="{{ '/publications/' | relative_url }}">Papers &amp; conferences <span aria-hidden="true">↗</span></a>
+        <a href="{{ '/engineering/' | relative_url }}">Experimental engineering <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </section>
+</div>
