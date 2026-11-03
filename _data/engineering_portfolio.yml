@@ -1,0 +1,87 @@
+# Each entry is a self-contained engineering case-study section.
+# Upload images to assets/img/portfolio/engineering/ and set image to its path.
+sections:
+  - id: vacuum-platform
+    number: "01"
+    kicker: "Hardware integration"
+    title: "Laser-heated vacuum platform"
+    subtitle: "A high-temperature experimental system"
+    description: "Integration of continuous-wave fiber lasers, a vacuum chamber, sample positioning, thermal management, and optical access for regolith processing."
+    points:
+      - "Laser and vacuum hardware integration"
+      - "High-temperature sample handling"
+      - "Optical access and experiment repeatability"
+    image: ""
+    image_alt: "Complete laser and vacuum experimental apparatus"
+    image_caption: "Laser processing system"
+    image_hint: "Vacuum chamber / full apparatus photo"
+    link_label: "Research application"
+    link_url: "/research/#laser-vaporization"
+
+  - id: pid-software
+    number: "02"
+    kicker: "Scientific software"
+    title: "Real-time pyrometry and laser control"
+    subtitle: "Measure, regulate, and record"
+    description: "A Python-based interface couples spectroscopy, two-color temperature estimation, laser power control, and synchronized experiment records."
+    points:
+      - "Spectrometer and laser communication"
+      - "Closed-loop temperature feedback"
+      - "Time-series data and raw spectra logging"
+    image: ""
+    image_alt: "Screenshot of Python spectrometer and laser-control interface"
+    image_caption: "Temperature control software"
+    image_hint: "GUI screenshot / controller architecture"
+    link_label: "View source code"
+    link_url: "https://github.com/lucaschristen/PID_SpectraWiz_Laser_Heating"
+
+  - id: optical-instrumentation
+    number: "03"
+    kicker: "Optics & metrology"
+    title: "Optical temperature measurement"
+    subtitle: "Working with spectrometers and calibration"
+    description: "Optical layouts, filtering, calibration, and spectral processing are used to obtain useful temperature information from high-intensity experiments."
+    points:
+      - "Lens and filter selection"
+      - "Emission spectroscopy and ratio pyrometry"
+      - "Spectral calibration and error assessment"
+    image: ""
+    image_alt: "Optical diagnostics arrangement with lenses and spectrometer"
+    image_caption: "Optical diagnostics setup"
+    image_hint: "Optical layout or diagnostic hardware"
+    link_label: "Read related research"
+    link_url: "/research/#temperature-diagnostics"
+
+  - id: numerical-tools
+    number: "04"
+    kicker: "Computational engineering"
+    title: "Vaporization model and analysis tools"
+    subtitle: "Turning measurements into process estimates"
+    description: "A reduced-order computational model examines how vaporization changes regolith composition and how process temperature influences material yield."
+    points:
+      - "Multicomponent oxide mixture modelling"
+      - "Species depletion and enrichment estimates"
+      - "Scientific analysis and reproducible plots"
+    image: ""
+    image_alt: "Computational simulation and plots of regolith composition changes"
+    image_caption: "Numerical modelling output"
+    image_hint: "Model flowchart or results figure"
+    link_label: "View modelling repository"
+    link_url: "https://github.com/lucaschristen/0D_Numerical_Vaporization_Fractional_Loop"
+
+  - id: collection-systems
+    number: "05"
+    kicker: "Ongoing engineering"
+    title: "Vapor collection and thermal diagnostics"
+    subtitle: "From laboratory concept to testable apparatus"
+    description: "Development of arrangements for observing and collecting laser-generated material, including heated collector surfaces and dedicated optical diagnostics."
+    points:
+      - "Collector mounting and thermal management"
+      - "Optical access and temperature measurement"
+      - "Design validation under controlled atmospheres"
+    image: ""
+    image_alt: "Experimental collection plate and diagnostic arrangement"
+    image_caption: "Collector concept / laboratory setup"
+    image_hint: "Collector hardware or experimental schematic"
+    link_label: "See research motivation"
+    link_url: "/research/#enrichment"
