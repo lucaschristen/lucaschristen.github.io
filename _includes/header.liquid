@@ -98,7 +98,10 @@
               {% endif %}
             {% endif %}
           {% endfor %}
-          {% if site.search_enabled %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/' | relative_url }}#contact">Contact</a>
+          </li>
+          {% if site.search_enabled %>
             <!-- Search -->
             <li class="nav-item">
               <button id="search-toggle" title="Search" onclick="openSearchModal()">
