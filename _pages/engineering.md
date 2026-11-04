@@ -14,8 +14,8 @@ portfolio_page: true
       <p class="portfolio-eyebrow">Engineering / Experimental systems &amp; software</p>
       <h1>Engineering portfolio</h1>
       <p class="portfolio-detail-lead">
-        Building the hardware and software required to perform repeatable high-temperature experiments:
-        from laser and vacuum integration to real-time measurement and modelling.
+        My experimental engineering work includes laser and vacuum integration, optical
+        diagnostics, temperature feedback control, data acquisition, and numerical modelling.
       </p>
       <div class="portfolio-detail-chips" aria-label="Engineering disciplines">
         <span>Laser systems</span>
@@ -44,9 +44,9 @@ portfolio_page: true
   <section class="portfolio-detail-outro">
     <div class="portfolio-wrap portfolio-detail-outro-grid">
       <div>
-        <p class="portfolio-eyebrow">Beyond the apparatus</p>
-        <h2>Design, build, measure, improve.</h2>
-        <p>The portfolio is organized around engineering problems and methods. Each project section is ready for original photos, layouts, diagrams and validation plots.</p>
+        <p class="portfolio-eyebrow">Related resources</p>
+        <h2>Technical documentation and research applications</h2>
+        <p>Selected projects include links to source code, numerical tools, and the corresponding research applications.</p>
       </div>
       <div class="portfolio-outro-links">
         <a href="https://github.com/lucaschristen" target="_blank" rel="noopener noreferrer">GitHub repositories <span aria-hidden="true">↗</span></a>
