@@ -14,8 +14,8 @@ portfolio_home: true
         <p class="portfolio-role">PhD Researcher · The University of Tokyo</p>
         <div class="portfolio-hero-rule" aria-hidden="true"></div>
         <p class="portfolio-lead">
-          Developing laser-based methods for processing lunar regolith and
-          investigating technologies that could support resource extraction beyond Earth.
+          I investigate laser-driven vaporization of lunar regolith, with a focus on
+          selective material removal, compositional changes, and process energy requirements.
         </p>
         <p class="portfolio-affiliation">
           Department of Aeronautics and Astronautics<br>
@@ -46,7 +46,6 @@ portfolio_home: true
           height="900"
           fetchpriority="high"
         >
-        <div class="portfolio-portrait-caption">Research &amp; Engineering</div>
       </div>
     </div>
   </section>
@@ -59,8 +58,8 @@ portfolio_home: true
           <h2 id="portfolio-research-title">Research &amp; engineering</h2>
         </div>
         <p>
-          From laboratory experiments to diagnostics and numerical models:
-          developing the methods and hardware behind lunar resource processing.
+          Selected experiments, diagnostic methods, and numerical analyses related to
+          thermal processing of lunar materials.
         </p>
       </div>
       <div class="portfolio-card-grid">
@@ -105,23 +104,26 @@ portfolio_home: true
         </a>
       </div>
       <p class="portfolio-section-note">
-        Interested in the systems behind the experiments?
-        <a href="{{ '/engineering/' | relative_url }}">View engineering projects <span aria-hidden="true">↗</span></a>
+        Further technical details are available in the
+        <a href="{{ '/engineering/' | relative_url }}">engineering portfolio <span aria-hidden="true">↗</span></a>.
       </p>
     </div>
 
   </section>
 
-  <section class="portfolio-section portfolio-bottom" aria-labelledby="portfolio-about-title">
+  <section class="portfolio-section portfolio-bottom" id="contact" aria-labelledby="portfolio-contact-title">
     <div class="portfolio-wrap portfolio-bottom-grid">
       <div class="portfolio-bottom-intro">
-        <p class="portfolio-eyebrow">About</p>
-        <h2 id="portfolio-about-title">Research with an engineering focus.</h2>
-        <p>
-          My work combines experimental aerospace engineering, high-temperature
-          processing, optical diagnostics, and numerical modelling.
-          I hold an M.Sc. in Aerospace Engineering from the University of Stuttgart.
+        <p class="portfolio-eyebrow">Contact &amp; collaboration</p>
+        <h2 id="portfolio-contact-title">Get in touch</h2>
+        <p class="portfolio-contact-description">
+          I welcome discussions about lunar ISRU, experimental research,
+          and possible scientific collaborations. Please feel free to contact me.
         </p>
+        <div class="portfolio-contact-links">
+          <a href="mailto:l.christen@al.t.u-tokyo.ac.jp">Email me <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/lucas-brian-christen" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
       </div>
       <div class="portfolio-publication">
         <p class="portfolio-eyebrow">Selected publication · 2025</p>
