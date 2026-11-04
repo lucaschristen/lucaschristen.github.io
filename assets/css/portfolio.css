@@ -71,11 +71,11 @@ html[data-theme="dark"] {
 
 .portfolio-hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.3fr) minmax(300px, 0.65fr);
-  gap: clamp(42px, 6.5vw, 105px);
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 0.34fr);
+  gap: clamp(34px, 5.5vw, 80px);
   align-items: center;
-  padding-top: clamp(54px, 6vw, 94px);
-  padding-bottom: clamp(54px, 6vw, 94px);
+  padding-top: clamp(36px, 4.5vw, 65px);
+  padding-bottom: clamp(36px, 4.5vw, 65px);
 }
 
 .portfolio-hero-copy {
@@ -218,7 +218,7 @@ html[data-theme="dark"] {
   position: relative;
   isolation: isolate;
   justify-self: end;
-  width: min(100%, 325px);
+  width: min(100%, 240px);
   margin: 0;
 }
 
@@ -429,7 +429,7 @@ html[data-theme="dark"] {
   gap: clamp(35px, 6vw, 110px);
 }
 
-.portfolio-bottom-intro > p:last-child {
+.portfolio-bottom-intro .portfolio-contact-description {
   max-width: 610px;
   margin: 20px 0 0;
   color: var(--portfolio-muted);
@@ -461,7 +461,7 @@ html[data-theme="dark"] {
 
 @media (max-width: 960px) {
   .portfolio-hero-grid {
-    grid-template-columns: minmax(0, 1fr) minmax(250px, 0.72fr);
+    grid-template-columns: minmax(0, 1fr) minmax(180px, 0.4fr);
     gap: 32px;
   }
 
@@ -501,11 +501,11 @@ html[data-theme="dark"] {
   .portfolio-portrait-wrap {
     grid-row: 1;
     justify-self: center;
-    width: min(100% - 24px, 270px);
+    width: min(100% - 24px, 190px);
   }
 
   .portfolio-portrait {
-    max-height: 330px;
+    max-height: 240px;
     object-position: center 31%;
   }
 
@@ -591,4 +591,44 @@ html[data-theme="dark"] .portfolio-publication h3 {
 html[data-theme="dark"] .portfolio-publication a,
 html[data-theme="dark"] .portfolio-section-note a {
   color: #9fcbf3;
+}
+
+/* A direct and unobtrusive invitation to contact the researcher. */
+.portfolio-contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 23px;
+}
+
+.portfolio-contact-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 15px;
+  border: 1px solid #cad9e7;
+  border-radius: 6px;
+  background: #ffffff;
+  color: var(--portfolio-navy);
+  font-size: 0.92rem;
+  font-weight: 650;
+  text-decoration: none;
+  transition: border-color 180ms ease, background 180ms ease;
+}
+
+.portfolio-contact-links a:hover {
+  border-color: #6f9dc5;
+  background: #eaf1f8;
+  text-decoration: none;
+}
+
+html[data-theme="dark"] .portfolio-contact-links a {
+  border-color: #43617b;
+  background: #253b4d;
+  color: #d4e8f9;
+}
+
+html[data-theme="dark"] .portfolio-contact-links a:hover {
+  background: #2c4b65;
 }
