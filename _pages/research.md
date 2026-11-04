@@ -14,8 +14,8 @@ portfolio_page: true
       <p class="portfolio-eyebrow">Research / Lunar in-situ resource utilization</p>
       <h1>Research</h1>
       <p class="portfolio-detail-lead">
-        Can laser heating help separate lunar materials before metal extraction?
-        My research combines controlled vaporization experiments, optical diagnostics, and modelling.
+        My research examines selective vaporization of lunar regolith under laser heating,
+        including mass-loss behavior, compositional changes, and process energy demand.
       </p>
       <div class="portfolio-detail-chips" aria-label="Research themes">
         <span>Lunar regolith</span>
@@ -44,7 +44,7 @@ portfolio_page: true
     <div class="portfolio-wrap portfolio-detail-outro-grid">
       <div>
         <p class="portfolio-eyebrow">Research outcome</p>
-        <h2>Connecting science to future lunar resource use</h2>
+        <h2>Research context and applications</h2>
         <p>These experiments support evaluation of thermal beneficiation as a possible step in a broader lunar metal-production process.</p>
       </div>
       <div class="portfolio-outro-links">
