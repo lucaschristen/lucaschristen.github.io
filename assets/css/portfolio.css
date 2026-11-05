@@ -218,9 +218,10 @@ html[data-theme="dark"] {
   position: relative;
   isolation: isolate;
   justify-self: end;
-  align-self: end;
+  align-self: stretch;
   width: min(100%, 240px);
-  margin: 0;
+  min-height: 0;
+  margin: 42px 0 0;
 }
 
 .portfolio-portrait-wrap::before {
@@ -236,10 +237,11 @@ html[data-theme="dark"] {
 }
 
 .portfolio-portrait {
+  position: absolute;
+  inset: 0;
   display: block;
   width: 100%;
-  height: 300px;
-  aspect-ratio: 4 / 5;
+  height: 100%;
   object-fit: cover;
   object-position: center 35%;
   border-radius: 15px;
@@ -505,10 +507,11 @@ html[data-theme="dark"] {
     justify-self: center;
     align-self: auto;
     width: min(100% - 24px, 190px);
+    height: 238px;
+    margin-top: 0;
   }
 
   .portfolio-portrait {
-    height: 238px;
     object-position: center 31%;
   }
 
